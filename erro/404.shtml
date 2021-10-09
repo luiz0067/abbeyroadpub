@@ -1,0 +1,56 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+		<title>ERRO 404 - Página não encontrada!</title>
+		<style type="text/css">
+			body {
+				background-color: #FFF;
+				font-family: verdana;
+				font-size: 10px;
+			}
+			
+			h1 {
+				font-family: Arial, Helvetica, sans-serif;
+				font-size: 22px;
+				font-weight: bold;
+				margin-bottom: 18px;
+				line-height: 1.2em;
+				padding-top: 3px;
+				padding-right: 3px;
+				padding-bottom: 3px;
+				padding-left: 5px;
+				text-decoration: none;
+				color: #A7DD00;
+				text-shadow: 1px 1px #333;
+			}
+			
+			#box {
+				text-align:center;
+				background-color:#EEEEEE;
+				left:50%;
+				top:50%;
+				margin:-240px 0 0 -320px;
+				position:absolute;
+				height:350px;
+				width:640px
+			}
+		</style>
+	</head>
+	<body>
+		<div id="box">
+			<br>
+			<br>
+			<a href="http://www.pluriweb.com.br/" title="Pluriweb - Hospedagem de Sites"><img src="http://www.pluriweb.com.br/templates/pluriweb/images/logo.png" width="350" height="109" title="Pluriweb - Hospedagem de Sites" border="0"></a><br>
+			<h1>ERRO 404 - Página não encontrada!</h1>
+			<hr>
+			<br>
+			Você não tem permissão para fazer este acesso.<br>
+			<br>
+			Por motivo de seguranção o seu IP foi<br>
+			gravado em nosso banco de dados.<br>
+			<br>
+			<b>IP: <!--#echo var="REMOTE_ADDR" --></b>
+		</div>
+	</body>
+</html>
