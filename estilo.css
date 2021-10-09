@@ -1,0 +1,332 @@
+@charset "UTF-8";
+/* abbey road
+
+pagina de estilos. geralmente algumas classes são alteradas para uso múltiplo, atenção, os elementos #TUDO  tem um para cada 
+
+pagina justamente para ficar o fundo da imagem diferentes.
+
+Desenvolvido por STUDIO MIDIAMIX 
+
+ 45 3055 4563
+
+www.studiomidiamix.com.br
+
+fb.com/studiomidiamix
+
+ */
+
+body{
+	width:100%; height:100%; margin-bottom:0px; margin-left:0px; margin-right:0px; margin-top:0px;
+	background-color:#000000; } 
+ 
+/* cada pagina tem um elemento tudo devido ao bg ser diferente */
+#tudo1{
+	width:100%; height:100%; margin-bottom:0px; margin-left:0px; margin-right:0px; margin-top:0px; background-image:url(../imagens/fundo-pub.png); background-repeat:no-repeat; background-position:top;}
+	
+	
+#tudo2{
+	width:100%; height:100%; margin-bottom:0px; margin-left:0px; margin-right:0px; margin-top:0px; background-image:url(../imagens/funbo-pub2.png); background-repeat:no-repeat; background-position:top;}
+	
+	
+#tudo3{
+	width:100%; height:100%; margin-bottom:0px; margin-left:0px; margin-right:0px; margin-top:0px; background-image:url(../imagens/funbo-pub3.png); background-repeat:no-repeat; background-position:top;}
+	
+#tudo4{
+	width:100%; height:100%; margin-bottom:0px; margin-left:0px; margin-right:0px; margin-top:0px; background-image:url(../imagens/funbo-pub4.png); background-repeat:no-repeat; background-position:top;}			
+	
+#tudo5{
+	width:100%; height:100%; margin-bottom:0px; margin-left:0px; margin-right:0px; margin-top:0px; background-image:url(../imagens/funbo-pub5.png); background-repeat:no-repeat; background-position:top;}		
+	
+	
+	
+
+#content{
+	width:1000px; height:auto; float:none; margin-left:auto; margin-right:auto; display:block; overflow:hidden; background-color:transparent; color:#FFF;}
+	
+.espaco_nav{
+	width:1000px; height:62px; float:left; display:block; line-height:62px; text-align:center;}	
+	
+	h2{
+		margin-top:20px; margin-bottom:20px; float:left; text-align:left; text-indent:0px; font-size:20px; color:#8C6700; font-family:"Times New Roman", Times, serif; font-style:italic; font-weight:normal;}
+		
+	h3{
+		margin-top:0px;float:left; text-align:left;font-size:15px; color:#FFFFFF; font-family:"Times New Roman", Times, serif;font-style:italic; font-weight:normal; line-height:150%;}	
+		
+		
+/* barra superior - onde econtra-se o botao de voltar */		
+		
+.btvoltar{
+	font-family:"Times New Roman", Times, serif; font-style:italic; color:#FFFFFF; font-size:20px; text-decoration:none;}
+	
+.btvoltar:hover{
+	font-family:"Times New Roman", Times, serif; font-style:italic; color:#8C6700; font-size:20px; text-decoration:underline;}
+	
+.btvoltar:visited{
+	font-family:"Times New Roman", Times, serif; font-style:italic; color:#FFFFFF; font-size:20px;}
+	
+.btvoltar:active{
+	font-family:"Times New Roman", Times, serif; font-style:italic; color:#FFFFFF; font-size:20px;}
+	
+	
+.linkcomum{
+	text-decoration:none; color:#FFF; font-size:inherit; text-align:justify;}	
+	
+.linkcomum:hover{
+	text-decoration:underline; color:#FFF;}	
+	
+.home{
+background-image:url(../imagens/imagens_layout/home.png);
+}
+.home:hover{
+background-image:url(../imagens/imagens_layout/home_hover.png);
+}
+	
+		
+		
+
+/* footer */
+
+div#footer{
+	width:1000px; height:72px; float:none; margin-left:auto; margin-right:auto; background-image:url(../imagens/fundofooter.png); background-repeat:no-repeat;}	
+	
+#totalfooter{
+	height:72px; width:100%; background-image:url(../imagens/fundo-footertotal.gif); background-repeat:repeat-x; background-position:bottom; position:fixed; bottom:0px;}	
+	
+#espaco_redes{
+	width:170px; height:55px; float:left; padding-left:21px; padding-top:17px; display:inline;}		
+	
+#slide-cervejas{
+	height:72px; width:603px; float:left; display:block; overflow:hidden;}	
+			
+#midiamix{
+	width:110px; height:72px; float:left;}
+	
+	
+.espacoimg{
+	width:50px; height:72px; float:left;}	
+
+	
+	
+/* o bar */	
+	
+#content_left{
+	width:457px; height:auto; min-height:718px; float:left; display:block; overflow:hidden;}
+	
+#content_right{
+	width:543px; height: auto; min-height: 694px; float:left; display:block; overflow:hidden; background-image:url(../imagens/fundo_transparente.png); background-repeat:repeat-y; background-position:top;}
+	
+#logotipo{
+	width:222px; height:175px; float:left; margin-left:186px; display:inline;}	
+	
+.titulo_pagina{
+	width:543px; height:70px; float:left; overflow:hidden; color:#FFFFFF; font-size:20px; text-align:left; text-indent:30px; font-family:"Times New Roman", Times, serif; font-style:italic; line-height:100px;}
+	
+	#titulo{
+		width:200px; height:70px; float:left; display:block; overflow:hidden; text-align:left;}	
+		
+	
+	#voltar-anterior{
+		width:243px; float:left; height:70px; display:block; overflow:hidden; text-align:right;}		
+	
+#fotos_o_bar{
+	width:543px; height:128px; float:left; overflow:hidden;}
+	
+#fundo_transparente{
+	width:520px; height:693px; float:left;}	
+	
+#containertexto{
+	width:464px; float:left; height:auto; text-align:justify; font-family:"Times New Roman", Times, serif; color:#FFF; margin-left:31px; display:inline; font-size:14px;}	
+		
+
+img{
+	border:0px;}
+
+.linhafotos_o_bar{
+	width:438px; height:96px; float:left; overflow:hidden; margin-left:31px; margin-top:15px; display:inline;}
+	
+	.foto_miniatura{
+		width:138px; height:92px; border-style:solid; border-width:2px; border-color:#8C6800; float:left; margin-right:4px; display:inline;}
+		
+	.foto_miniatura:hover{
+		width:138px; height:92px; border-style:solid; border-width:2px; border-color:#FFFFFF; float:left; margin-right:4px; display:inline;}		
+					
+					
+	
+/* cardapio*/
+
+
+.divisor-linhacardapio{
+	width:425px; height:17px; float:left; display:inline; overflow:hidden; text-align:center; line-height:17px;}
+	
+	.linha-cardapio{
+		width:425px; height:auto; float:left; display:inline; overflow:hidden;}
+		
+	.texto-cardapio{
+		width:281px; height:auto; float:left; display:inline; overflow:hidden; margin-left:28px;}	
+		
+	.foto-cardapio{
+		width:79px; margin-left:16px; margin-top:auto; height:52px; float:left; border: 2px solid #8C6800}	
+		
+	.foto-cardapio:hover{
+		width:79px; margin-left:16px; height:52px; float:left; border: 2px solid #FFFFFF}	
+		
+		
+	#content_right_cardapio{
+	width:520px; height:auto; min-height:718px; margin-bottom:100px;  float:left; display:block; overflow:hidden; background-image:url(../imagens/fundo_transparente.png); background-repeat:repeat-y; background-position:top;}
+	
+	#cerveja{width:300px; height:100px; float:left; display:block; overflow:hidden; margin-left:20px;
+		}	
+		
+		
+		
+/* contato */
+
+#espacoformulario{
+	width:357px; height:386px; float:left; display:block; overflow:hidden; margin-left:18px; background-image:url(../imagens/fundoformulario.png); background-repeat:no-repeat;
+	padding:15px; font-size:15px; color:#FFFFFF; font-family:"Times New Roman", Times, serif;font-style:italic; font-weight:normal;}
+	
+.input_contato{
+	height:24px; width:auto; font-family:"Times New Roman", Times, serif;font-style:italic; font-weight:normal; font-size:16px; background-color:#FFFFFF; border:0px;
+	
+	
+	opacity:0.60;
+	-moz-opacity: 0.60;
+	filter: alpha(opacity=60);
+	border-color:transparent;  
+	 
+
+	
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius: 5px;
+	<strong>behavior:url(css/border-radius.htc);</strong>
+
+	
+	}	
+
+#input_nome{
+	width:266px;}
+	
+#input_endereco{
+	width:236px;}					
+	
+#input_telefone{
+	width:253px;}	
+	
+#input_email{
+	width:265px;}	
+	
+#input_email{
+	width:147px;}
+	
+#input_estado{
+	width:54px;}	
+	
+#mensagem{
+	min-width:316px; max-width:316px; min-height:80px; max-height:80px;
+	opacity:0.60;
+	-moz-opacity: 0.60;
+	filter: alpha(opacity=60);
+	border-color:transparent;  
+	 font-family:"Times New Roman", Times, serif;font-style:italic; font-weight:normal; font-size:16px;
+
+	
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius: 5px;
+	<strong>behavior:url(css/border-radius.htc);</strong>
+}		
+	
+#btenviar{
+	color:#999;
+	width:51px; height:21px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius: 5px;
+	margin-top:10px;
+	<strong>behavior:url(css/border-radius.htc);</strong>
+	}	
+	
+#btlimpar{
+	color:#999;
+	width:51px; height:21px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius: 5px;
+	margin-top:10px; margin-left:5px;
+	<strong>behavior:url(css/border-radius.htc);</strong>
+	}						
+							
+								
+	
+	
+/* pagina de fotos - primeira pagina */
+
+#tenso{
+	width:464px; float:left; height:40px; line-height:40px; overflow:hidden; font-size:20px; color:#8C6700; font-family:"Times New Roman", Times, serif; font-style:italic; font-weight:normal;}
+
+div#galeria-fotos{
+	width:464px; height:auto; overflow:hidden; display:block; margin-left:31px;}
+	
+.linhas-galeria-fotos{
+	width:464px; height:auto; min-height:50px; float:left; display:block;}	
+	
+.data-evento-fotos{
+	min-width:90px; height:auto; height:auto; min-height:50px; float:left; overflow:hidden; font-size:18px; color:#8C6700; font-family:"Times New Roman", Times, serif; font-style:italic; font-weight:normal;
+	text-align:left;}	
+	
+.descricao-evento-foto{
+	width:374px; height:auto; min-height:50px; float:left; display:block; overflow:hidden;}	
+	
+.divisor-fotos{
+	width:464px; height:17px; float:left; display:inline; overflow:hidden; text-align:left; line-height:17px;}	
+	
+	#pagination-fotos{
+		width:464px; height:22px; float:left; display:block; overflow:hidden; line-height:22px; text-align:center; margin-top:20px;}
+		
+	.seletores-pagina{color:#FFFFFF; font-size:14px; text-decoration:none; font-style:italic;font-family:"Times New Roman", Times, serif; font-weight:normal;
+		}
+		
+	.seletores-pagina:hover{color:#8C6700; font-size:14px; text-decoration:none; font-style:italic;font-family:"Times New Roman", Times, serif; font-weight:normal;
+		}		
+	
+		
+/* pagina de foto final */
+
+#container-fotofinal{
+	width:464px; height:auto; float:lef; text-align:left; display:block; overflow:hidden;}	
+	
+	.foto_final{
+		width:79px; height:52px; border-style:solid; border-width:2px; border-color:#8C6800; float:left; margin-right:5px; display:inline; margin-bottom:5px;
+		opacity:0.60;
+	-moz-opacity: 0.60;
+	filter: alpha(opacity=60);
+		}
+		
+	.foto_final:hover{
+		width:79px; height:52px; border-style:solid; border-width:2px; border-color:#FFFFFF; float:left; margin-right:5px; display:inline;margin-bottom:5px;
+		opacity:1.00;
+	-moz-opacity: 1.00;
+	filter: alpha(opacity=100);
+		}		
+				
+	
+ #cabecalho-fotos{
+	 width:464px; height:auto; float:left; display:block; overflow:hidden;}	
+	 
+	 #data-cabecalho-fotos{
+		 width:120px; height:80px; float:left;}
+		 
+	#titulo-cabecalho-fotos{
+		width:344px; height:80px; float:left;}
+		
+	#descricao-galeria-fotos{
+		width:464px; float:left; height:auto;}		 				
+			
+	#descricao-galeria-fotos .h3 p span{
+		color:#FFFFFF;}		 				
+				
+				
+/* videos */
+
+				
